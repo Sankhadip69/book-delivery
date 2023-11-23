@@ -19,7 +19,7 @@ services:
       - "3307:3306"
     networks:
       - bookDeliveryNetwork
-
+    
 
   bookdelivery:
     image: 'sankha169/bookdelivery:latest'
@@ -43,7 +43,7 @@ services:
       - database
     networks:
       - bookDeliveryNetwork
-
+   
 
 networks:
   bookDeliveryNetwork:
