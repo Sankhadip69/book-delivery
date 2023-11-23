@@ -20,6 +20,7 @@ services:
     networks:
       - bookDeliveryNetwork
 
+
   bookdelivery:
     image: 'sankha169/bookdelivery:latest'
     build:
@@ -42,6 +43,7 @@ services:
       - database
     networks:
       - bookDeliveryNetwork
+
 
 networks:
   bookDeliveryNetwork:
