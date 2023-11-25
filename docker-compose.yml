@@ -6,7 +6,7 @@ services:
     image: mysql:8.0.33
     restart: always
     env_file:
-      - .env  # Use the .env file for environment variables
+      - .env
     environment:
       MYSQL_DATABASE: bookdelivery
       MYSQL_USER: ${DATABASE_USERNAME}
